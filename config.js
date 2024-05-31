@@ -25,7 +25,7 @@ var config = {
             title: '',
             image: '',
             description: '',
-            overlayImage: 'blank.png',
+            overlayImage: 'pamant.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -342,7 +342,7 @@ var config = {
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Principalul indicator pe care îl folosim pentru a monitoriza încălzirea globală este anomalia de temperatură. Acest indicator nu ne arată temperatura absolută într-o anumită lună, ci cât de diferită este în comparație cu temperaturile istorice.',
-            overlayImage: 'blank',
+            overlayImage: 'pamant.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -381,7 +381,7 @@ var config = {
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Această anomalie trebuie măsurată în raport cu o bază de referință a temperaturii. Baza de referință este, de obicei, stabilită prin calcularea mediei temperaturilor pe parcursul mai multor decenii. O anomalie pozitivă indică temperaturi mai ridicate decât baza de referință, în timp ce o anomalie negativă arată condiții mai reci. Pentru analiza noastră, am selectat perioada 1991-2020 ca referință, care este perioada de bază implicită a ECMF. ',
-            overlayImage: 'blank',           
+            overlayImage: 'pamant.png',           
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 1,
@@ -453,7 +453,7 @@ var config = {
             title: 'Disconfortul termic', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Încălzirea globală contribuie semnificativ la creșterea disconfortului termic resimțit de oameni. Pe măsură ce temperaturile medii globale cresc, valurile de căldură devin mai frecvente și mai intense. Aceste condiții extreme afectează capacitatea organismului uman de a-și regla temperatura internă, crescând riscul de epuizare termică și insolație. În plus, creșterea umidității relative agravează senzația de căldură, făcând ca perioadele de vară să devină și mai greu de suportat. Efectele disconfortului termic se resimt nu doar la nivel fizic, ci și psihologic, afectând productivitatea și starea generală de bine a populației. ',
-            overlayImage: 'blank.png',
+            overlayImage: 'pamant.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -489,7 +489,7 @@ var config = {
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'În primele două decenii ale secolului 21, Europa a experimentat episoade de valuri de căldură prelungite și excepționale, cu temperaturi record în multe regiuni. O clasificare formală a primelor 10 valuri de căldură din Europa, care au avut loc între 1950 și 2015, a indicat că 6 dintre cele mai importante episoade s-au petrecut în ultimii 15 ani. De exemplu, vara anului 2003 din vestul și centrul Europei, considerată una dintre cele mai fierbinți veri europene de la anul 1500, a dus la peste 70.000 de decese',
-            overlayImage: 'blank.png',
+            overlayImage: 'pamant.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -562,7 +562,7 @@ var config = {
             title: 'Creșterea mortalității', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Încălzirea globală contribuie semnificativ la creșterea mortalității în exces prin intensificarea și prelungirea perioadelor de căldură extremă. Temperaturile ridicate și valurile de căldură devin din ce în ce mai frecvente și mai severe, afectând în mod disproporționat persoanele vârstnice, copiii și cei cu afecțiuni preexistente. Aceste condiții extreme suprasolicită capacitatea organismului de a-și menține o temperatură internă stabilă, ducând la probleme grave de sănătate, cum ar fi epuizarea termică și insolația. De exemplu, valurile de căldură din Europa au provocat zeci de mii de decese suplimentare în ultimii ani, iar previziunile indică o agravare a acestei tendințe.',
-            overlayImage: 'blank',
+            overlayImage: 'pamant.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -636,7 +636,7 @@ var config = {
             title: 'Sanatatea mintala', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Încălzirea globală afectează negativ sănătatea mintală prin intensificarea stresului termic și a evenimentelor meteorologice extreme, cum ar fi valurile de căldură și fenomenele meteorologice severe. Aceste condiții pot agrava anxietatea, depresia și alte tulburări psihice. De asemenea, schimbările climatice contribuie la insecuritatea locuinței și a alimentației, provocând stres și traume psihologice. Evenimentele climatice extreme pot duce la pierderi materiale și umane semnificative, generând sentimente de neputință și disperare.',
-            overlayImage: 'blank.png',
+            overlayImage: 'pamant.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -673,7 +673,7 @@ var config = {
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'aici vine grafic (ilustratie sanatate mintala)',
-            overlayImage: 'blank.png',
+            overlayImage: 'pamant.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -710,7 +710,7 @@ var config = {
             title: 'Insula de căldură urbană / Energie', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Insula de căldură urbană apare când zonele urbane devin mai calde decât cele rurale din cauza activităților umane și a infrastructurii. Suprafețele pavate și clădirile rețin căldura, iar emisiile de la vehicule și industrie contribuie la creșterea temperaturilor. Acest fenomen agravează disconfortul termic, problemele de sănătate legate de căldură și crește consumul de energie pentru răcire. De asemenea, poate deteriora calitatea aerului. Pentru a reduce efectele insulei de căldură, orașele pot crește suprafețele verzi, folosi materiale reflectorizante și promova transportul durabil.',
-            overlayImage: 'blank.png',
+            overlayImage: 'pamant.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -748,7 +748,7 @@ var config = {
             title: 'Agricultura', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Încălzirea globală are un impact semnificativ asupra agriculturii în România, afectând productivitatea și calitatea culturilor. Schimbările climatice duc la creșterea frecvenței și intensității fenomenelor meteorologice extreme, cum ar fi seceta, inundațiile și valurile de căldură, care pot distruge recoltele și solurile agricole. Temperaturile ridicate și precipitațiile neregulate perturbă ciclurile de creștere ale plantelor și reduc disponibilitatea apei, esențială pentru irigații. ',
-            overlayImage: 'Blank.png',
+            overlayImage: 'pamant.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -818,7 +818,7 @@ var config = {
             title: 'Ce putem face', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
             description: 'Pentru a combate efectele încălzirii globale asupra agriculturii în România, este esențial să adoptăm măsuri de adaptare și mitigare. Printre aceste măsuri se numără dezvoltarea și implementarea tehnologiilor agricole sustenabile, precum irigațiile eficiente și utilizarea culturilor rezistente la secetă. De asemenea, promovarea practicilor agricole prietenoase cu mediul, cum ar fi rotația culturilor și utilizarea fertilizatorilor organici, poate îmbunătăți sănătatea solului și rezistența acestuia la schimbările climatice. ',
-            overlayImage: 'blank.png',
+            overlayImage: 'pamant.png',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 1,
