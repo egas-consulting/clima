@@ -88,7 +88,6 @@
         .centered {
             width: 30vw;
             margin: 0 auto;
-        
         }
         .lefty {
             width: 33vw;
@@ -105,7 +104,7 @@
         .light {
             color: #000000;
             background-color: #ffffff;
-            border-radius: 10px;
+            border-radius: 0px;
         }
         .dark {
             color: #3a2a00;
@@ -120,7 +119,7 @@
         }
 
         .step div {
-            padding:  5px 5px 5px 5px;
+            padding: 5px;
             line-height: 25px;
             font-size: 1.1rem;
             font-weight: 400;
@@ -157,8 +156,6 @@
             z-index: 10;
         }
 
-
-
         #fullscreenImage {
             max-width: 100%;
             max-height: 100vh;
@@ -169,18 +166,16 @@
             transform: translateX(-50%);
         }
 
-/* Media query for mobile devices */
         @media (max-width: 768px) {
             #fullscreenImage {
-                /* Adjust the size for mobile devices */
                 max-width: 120%;
-                max-height: none; /* Allow the image to be taller on mobile */
+                max-height: none;
                 object-fit: contain;
                 position: absolute;
-                top: 60%; /* Adjust positioning as needed */
+                top: 60%;
                 left: 50%;
                 transform: translateX(-50%);
-                padding: 10px; /* Add padding or any other adjustments */
+                padding: 10px;
             }
         }
 
@@ -192,15 +187,9 @@
         }
 
         @keyframes colorFade {
-            0% {
-                color: #0093FF;
-            }
-            50% {
-                color: #F6F0EC;
-            }
-            100% {
-                color: #FF0000;
-            }
+            0% { color: #0093FF; }
+            50% { color: #F6F0EC; }
+            100% { color: #FF0000; }
         }
         .outlined {
             text-shadow: 
@@ -261,7 +250,7 @@
             position: absolute;
             bottom: 50px;
             background-color: #fff;
-            padding: 10px 10px;
+            padding: 10px;
             border-radius: 5px;
             font-size: 15px;
             white-space: nowrap;
@@ -403,26 +392,30 @@
         .snowflake, .leaf, .flower, .sunbeam {
             position: absolute;
             top: -50px;
-            background: white;
             opacity: 0.8;
-            border-radius: 50%;
-            width: 10px;
-            height: 10px;
             pointer-events: none;
         }
 
+        .snowflake {
+            width: 10px;
+            height: 10px;
+            background: white;
+            border-radius: 50%;
+        }
+
         .leaf {
-            width: 15px;
-            height: 15px;
-            background: brown;
-            border-radius: 5%;
+            width: 30px;
+            height: 50px;
+            background: #941511;
+            clip-path: polygon(50% 0%, 100% 25%, 75% 50%, 100% 75%, 50% 100%, 0% 75%, 25% 50%, 0% 25%);
         }
 
         .flower {
-            width: 10px;
-            height: 10px;
+            width: 20px;
+            height: 20px;
             background: pink;
             border-radius: 50%;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
         }
 
         .sunbeam {
@@ -965,11 +958,9 @@ let snowflakeInterval, leafInterval, flowerInterval, sunbeamInterval;
 
 function createSnowflakes() {
     const snowflakeContainer = document.getElementById('snowflakeContainer');
-    const snowflakeSvg = 'snow.svg'; // Path to your custom snowflake SVG
     clearInterval(snowflakeInterval);
     snowflakeInterval = setInterval(() => {
-        const snowflake = document.createElement('img');
-        snowflake.src = snowflakeSvg;
+        const snowflake = document.createElement('div');
         snowflake.classList.add('snowflake');
         snowflake.style.left = `${Math.random() * 100}vw`;
         snowflake.style.animationDuration = `${Math.random() * 5 + 3}s`; // Adjust speed here
@@ -988,11 +979,9 @@ function clearSnowflakes() {
 
 function createLeaves() {
     const leafContainer = document.getElementById('leafContainer');
-    const leafSvg = 'assets/leaf.svg'; // Path to your custom leaf SVG
     clearInterval(leafInterval);
     leafInterval = setInterval(() => {
-        const leaf = document.createElement('img');
-        leaf.src = leafSvg;
+        const leaf = document.createElement('div');
         leaf.classList.add('leaf');
         leaf.style.left = `${Math.random() * 100}vw`;
         leaf.style.animationDuration = `${Math.random() * 6 + 4}s`; // Adjust speed here
@@ -1011,11 +1000,9 @@ function clearLeaves() {
 
 function createFlowers() {
     const flowerContainer = document.getElementById('flowerContainer');
-    const flowerSvg = 'assets/flower.svg'; // Path to your custom flower SVG
     clearInterval(flowerInterval);
     flowerInterval = setInterval(() => {
-        const flower = document.createElement('img');
-        flower.src = flowerSvg;
+        const flower = document.createElement('div');
         flower.classList.add('flower');
         flower.style.left = `${Math.random() * 100}vw`;
         flower.style.animationDuration = `${Math.random() * 4 + 2}s`; // Adjust speed here
@@ -1034,11 +1021,9 @@ function clearFlowers() {
 
 function createSunbeams() {
     const sunbeamContainer = document.getElementById('sunbeamContainer');
-    const sunbeamSvg = 'assets/sunbeam.svg'; // Path to your custom sunbeam SVG
     clearInterval(sunbeamInterval);
     sunbeamInterval = setInterval(() => {
-        const sunbeam = document.createElement('img');
-        sunbeam.src = sunbeamSvg;
+        const sunbeam = document.createElement('div');
         sunbeam.classList.add('sunbeam');
         sunbeam.style.left = `${Math.random() * 100}vw`;
         sunbeam.style.animationDuration = `${Math.random() * 7 + 3}s`; // Adjust speed here
