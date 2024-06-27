@@ -13,44 +13,10 @@ var config = {
     title: '<span style="font-family:\'Source Serif Pro\'; font-weight: 300; padding: 0.1vh; border-radius: 5px; color: #ffffff; font-size: 1.5rem; display: block; margin-bottom: 1px;">VALURI DE CĂLDURĂ ÎN ROMÂNIA</span>',
     subtitle: '<span style="font-family: \'Source Serif Pro\'; color: #ffffff; font-size: 4rem; font-weight: 600;"> CUM NE AFECTEAZĂ <span style="font-weight: 400; animation: colorFade 6s infinite;" class="outlined">ÎNCĂLZIREA GLOBALĂ</span></span>',
 
-    byline: '<p> <img src="./scroll.png"> </p> <p> scroll </p> ',
-    footer: '<br> 15 mai 2024 <br> Sursa datelor: ',
+    byline: '<p> <img src="./scroll.gif"> </p>',
+    footer: '<br> 25 iunie 2024 <br> Sursa datelor: Copernicus, Institutul Național de Statistică, Our world in data, exhaustion.eu, Antonescu, B., Mărmureanu, L., Vasilescu, J., Marin, C., Andrei, S., Boldeanu, M., Ene, D., & Ţilea, A. (2020). A 41-year bioclimatology of thermal stress in Europe <br> Material realizat în cadrul proiectului: Fenomene Extreme în Climatul Viitor al României <br> Imaginile sunt generate folosind Dall-E 2, Design și vizualizare de date: Egas.studio',
     chapters: [
-        {
-            id: 'cap0',
-            daysAgo: 80,
-            showTimeline: false,
-            alignment: 'center',
-            hidden: true,
-            title: '',
-            image: '',
-            description: '',
-            overlayImage: 'blank.png',
-            
-            location: {
-                center: [12.02595, 49.90885],
-                zoom: 15,
-                pitch: 60,
-                bearing: 0,
-            },
-            mapAnimation: 'jumpTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
-
+        
         {
             id: 'cap1.1',
             daysAgo: 80,
@@ -59,7 +25,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Încălzirea globală nu mai reprezintă o previziune îndepărtată; efectele sale sunt deja evidente în prezent. În România, o creștere a temperaturii medii anuale cu doar 1,5 grade Celsius are consecințe semnificative asupra climatului, sănătății publice și economiei. Este dificil să vizualizăm implicațiile încălzirii globale fără un punct de referință și și mai dificil să ne gândim la efecte fără comparații.',
+            description: 'Încălzirea globală nu mai reprezintă o previziune îndepărtată. Efectele acesteia sunt deja evidente în prezent. În România, <b style="background-color:#FBC3A8;">o creștere a temperaturii medii anuale cu doar 1,5 grade Celsius are consecințe semnificative</b> asupra climatului, sănătății publice și economiei. Este dificil să vizualizăm implicațiile încălzirii globale fără un punct de referință și și mai dificil să ne gândim la efecte fără comparații.',
             overlayImage: 'blank.png',
             
             location: {
@@ -301,7 +267,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Din 1940 până în prezent, temperatura medie anuală a crescut treptat, cu mici variații. În 2023 s-a înregistrat o temperatură medie anuală de 11.6 grad Celsius. ',
+            description: 'Din 1940 până în prezent, temperatura medie anuală a crescut treptat, cu mici variații. În 2023 s-a înregistrat o temperatură medie anuală de <b style="background-color:#FBC3A8;">11.6 grade Celsius.</b> ',
             overlayImage: 'primul.png',
             location: {
                 center: [31.2718321, 49.4871968],
@@ -516,7 +482,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Principalul indicator pe care îl folosim pentru a monitoriza încălzirea globală este anomalia de temperatură. Acest indicator nu ne arată temperatura absolută într-o anumită lună, ci cât de diferită este în comparație cu temperaturile istorice.',
+            description: 'Principalul indicator pe care îl folosim pentru a monitoriza încălzirea globală este <b style="background-color:#FBC3A8;">anomalia de temperatură.</b> Acest indicator nu ne arată temperatura absolută într-o anumită lună, ci cât de diferită este în comparație cu temperaturile istorice.',
             overlayImage: 'blank.png',
             
             location: {
@@ -555,7 +521,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Această anomalie trebuie măsurată în raport cu o bază de referință a temperaturii. Baza de referință este, de obicei, stabilită prin calcularea mediei temperaturilor pe parcursul mai multor decenii. O anomalie pozitivă indică temperaturi mai ridicate decât baza de referință, în timp ce o anomalie negativă arată condiții mai reci. Pentru analiza noastră, am selectat perioada 1991-2020 ca referință, care este perioada de bază implicită a ECMF. ',
+            description: 'Această anomalie trebuie măsurată în raport cu o bază de referință a temperaturii. Baza de referință este, de obicei, stabilită prin calcularea mediei temperaturilor pe parcursul mai multor decenii. <b style="background-color:#FBC3A8;">O anomalie pozitivă indică temperaturi mai ridicate</b> decât baza de referință, în timp ce o anomalie negativă arată condiții mai reci. Pentru analiza noastră, am selectat perioada 1991-2020 ca referință, care este perioada de bază implicită a ECMF. ',
             overlayImage: 'blank.png',           
             location: {
                 center: [12.02595, 49.90885],
@@ -628,7 +594,7 @@ var config = {
             hidden: false,
             title: 'Ce înseamnă acest lucru și cum ne afectează?', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Anomaliile de temperatură s-au accentuat semnificativ în ultimele decenii, provocând fluctuații extreme între perioade de căldură intensă și valuri de frig neobișnuite. Aceste schimbări climatice destabilizează ecosistemele, afectează productivitatea agricolă și pun presiune pe resursele de apă. În plus, cresc riscurile pentru sănătatea publică, agravează infrastructura și intensifică fenomenele meteorologice extreme.',
+            description: 'Anomaliile de temperatură s-au accentuat semnificativ în ultimele decenii, provocând fluctuații extreme între perioade de căldură intensă și valuri de frig neobișnuite. Aceste schimbări climatice destabilizează ecosistemele, afectează productivitatea agricolă și pun presiune pe resursele de apă. În plus, <b style="background-color:#FBC3A8;">cresc riscurile pentru sănătatea publică, afectează infrastructura și intensifică fenomenele meteorologice extreme.</b>',
             overlayImage: 'pamant.png',
             
             location: {
@@ -703,7 +669,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'În primele două decenii ale secolului 21, Europa a experimentat episoade de valuri de căldură prelungite și excepționale, cu temperaturi record în multe regiuni. O clasificare formală a primelor 10 valuri de căldură din Europa, care au avut loc între 1950 și 2015, a indicat că 6 dintre cele mai importante episoade s-au petrecut în ultimii 15 ani. De exemplu, vara anului 2003 din vestul și centrul Europei, considerată una dintre cele mai fierbinți veri europene de la anul 1500, a dus la peste 70.000 de decese',
+            description: 'În primele două decenii ale secolului 21, Europa a experimentat episoade de valuri de căldură prelungite și excepționale, cu temperaturi record în multe regiuni. O clasificare formală a primelor 10 valuri de căldură din Europa, care au avut loc între 1950 și 2015, a indicat că <b style="background-color:#FBC3A8;">6 dintre cele mai importante episoade s-au petrecut în ultimii 15 ani.</b> De exemplu, vara anului 2003 din vestul și centrul Europei, considerată una dintre cele mai fierbinți veri europene de la anul 1500, a dus la peste 70.000 de decese',
             overlayImage: 'batrani.png',
             
             location: {
@@ -730,41 +696,7 @@ var config = {
             ]
         },
 
-        {
-            id: 'cap12.2',
-            daysAgo: 731,
-            showTimeline: false,
-            timelineImage: '', 
-            alignment: 'center',
-            hidden: false,
-            title: '', // Consider adding a title if needed
-            image: '', // Specify if there's a header image for the chapter
-            description: '<iframe src="https://flo.uri.sh/visualisation/18468450/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18468450/?utm_source=embed&utm_campaign=visualisation/18468450" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
-            overlayImage: 'batrani.png',
-            
-            location: {
-                center: [12.02595, 49.90885],
-                zoom: 1,
-                pitch: 60,
-                bearing: 0,
-            },
-            mapAnimation: 'jumpTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
+        
 
         {
             id: 'cap13',
@@ -849,7 +781,7 @@ var config = {
             hidden: false,
             title: 'Creșterea mortalității', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Încălzirea globală contribuie semnificativ la creșterea mortalității în exces prin intensificarea și prelungirea perioadelor de căldură extremă. Temperaturile ridicate și valurile de căldură devin din ce în ce mai frecvente și mai severe, afectând în mod disproporționat persoanele vârstnice, copiii și cei cu afecțiuni preexistente. Aceste condiții extreme suprasolicită capacitatea organismului de a-și menține o temperatură internă stabilă, ducând la probleme grave de sănătate, cum ar fi epuizarea termică și insolația. De exemplu, valurile de căldură din Europa au provocat zeci de mii de decese suplimentare în ultimii ani, iar previziunile indică o agravare a acestei tendințe.',
+            description: 'Încălzirea globală contribuie semnificativ la creșterea mortalității în exces prin intensificarea și prelungirea perioadelor de căldură extremă. Temperaturile ridicate și valurile de căldură devin din ce în ce mai frecvente și mai severe, afectând în mod disproporționat persoanele vârstnice, copiii și cei cu afecțiuni preexistente. Aceste condiții extreme suprasolicită capacitatea organismului de a-și menține o temperatură internă stabilă, ducând la probleme grave de sănătate, cum ar fi epuizarea termică și insolația. Valurile de căldură din Europa au provocat zeci de mii de decese suplimentare în ultimii ani, iar previziunile indică o agravare a acestei tendințe.',
             overlayImage: 'blank.png',
             
             location: {
@@ -962,7 +894,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'În anul 2015, în cele 93 de orașe studiate, locuiau în total 57.896.852 de persoane cu vârsta de peste 20 de ani. Populația orașelor varia de la 95.242 de locuitori în Tartu, Estonia, la 8.011.216 de locuitori în Londra, Marea Britanie, cu o valoare mediană de 624.495 de locuitori. În total, au fost raportate 555.215 decese din toate cauzele în același an, dintre care 23,1% (n=128.269) au avut loc între iunie și august. Temperatura medie de vară a variat între 14,2°C în Glasgow, Marea Britanie, și 29,7°C în Sevilla, Spania, cu temperaturi maxime medii variind între 22,7°C în Tallinn, Estonia, și 36,8°C în Sevilla, Spania. Media ponderată a UHI (Urban Heat Island) zilnică pe orașe, din iunie până în august, a fost de 1,5°C (interval pe orașe 0,5°C - 3,0°C), cu valori maxime pe celulă de grilă ajungând la 4,1°C în Cluj-Napoca, România.',
+            description: 'Potrivit unui studiu realizat în 2015, temperatura medie de vară a variat între 14,2°C în Glasgow, Marea Britanie, și 29,7°C în Sevilla, Spania, cu temperaturi maxime medii variind între 22,7°C în Tallinn, Estonia, și 36,8°C în Sevilla, Spania. Media ponderată a efectului insulei de căldură urbană (UHI) zilnică pe orașe, din iunie până în august, a fost de 1,5°C (interval pe orașe 0,5°C - 3,0°C), cu valori maxime pe celulă de grilă ajungând la 4,1°C în Cluj-Napoca, România.',
             overlayImage: 'pamant.png',
             
             location: {
@@ -1033,11 +965,11 @@ var config = {
             showTimeline: false,
             timelineImage: '', 
             alignment: 'center',
-            hidden: false,
+            hidden: true,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<iframe src="https://flo.uri.sh/visualisation/18467595/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18467595/?utm_source=embed&utm_campaign=visualisation/18467595" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
-            overlayImage: 'blank.png',
+            description: '',
+            overlayImage: 'hartadoi.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -1064,16 +996,16 @@ var config = {
             
         },
         {
-            id: 'cap18.3',
+            id: 'cap18.4',
             daysAgo: 30,
             showTimeline: false,
             timelineImage: '', 
             alignment: 'center',
-            hidden: false,
+            hidden: true,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<iframe src="https://flo.uri.sh/visualisation/18468047/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18468047/?utm_source=embed&utm_campaign=visualisation/18468047" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
-            overlayImage: 'blank.png',
+            description: '',
+            overlayImage: 'harta.png',
             
             location: {
                 center: [12.02595, 49.90885],
@@ -1180,7 +1112,7 @@ var config = {
             hidden: false,
             title: 'Ce putem face', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Pentru a combate efectele încălzirii globale asupra agriculturii în România, este esențial să adoptăm măsuri de adaptare și mitigare. Printre aceste măsuri se numără dezvoltarea și implementarea tehnologiilor agricole sustenabile, precum irigațiile eficiente și utilizarea culturilor rezistente la secetă. De asemenea, promovarea practicilor agricole prietenoase cu mediul, cum ar fi rotația culturilor și utilizarea fertilizatorilor organici, poate îmbunătăți sănătatea solului și rezistența acestuia la schimbările climatice. ',
+            description: 'Pe măsură ce valurile de căldură devin mai frecvente și mai intense în România odată cu creșterea stresului termic, este crucial să înțelegem consecințele acestor fenomene extreme asupra sănătății noastre și asupra mediului înconjurător. Informarea corectă și conștientizarea schimbărilor climatice ne ajută să ne adaptăm mai bine la aceste condiții extreme. Protejându-ne pe noi înșine și mediul, contribuim la construirea unui viitor mai sigur pentru noi toți.',
             overlayImage: 'pamant.png',
             location: {
                 center: [12.02595, 49.90885],
