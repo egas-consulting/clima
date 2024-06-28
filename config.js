@@ -444,7 +444,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<iframe src="https://flo.uri.sh/visualisation/18179201/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18179201/?utm_source=embed&utm_campaign=visualisation/18179201" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            description: '<iframe src="https://flo.uri.sh/visualisation/18179201/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:350px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18179201/?utm_source=embed&utm_campaign=visualisation/18179201" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
             overlayImage: 'blank.png',
             location: {
                 center: [31.2718321, 49.4871968],
@@ -558,7 +558,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<iframe src="https://flo.uri.sh/visualisation/18171982/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18171982/?utm_source=embed&utm_campaign=visualisation/18171982" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            description: '<iframe src="https://flo.uri.sh/visualisation/18171982/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:350px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18171982/?utm_source=embed&utm_campaign=visualisation/18171982" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
             overlayImage: 'blank.png',           
             location: {
                 center: [12.02595, 49.90885],
@@ -633,7 +633,43 @@ var config = {
             hidden: false,
             title: 'Disconfortul termic', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Încălzirea globală contribuie semnificativ la creșterea disconfortului termic resimțit de oameni. Pe măsură ce temperaturile medii globale cresc, valurile de căldură devin mai frecvente și mai intense. Aceste condiții extreme afectează capacitatea organismului uman de a-și regla temperatura internă, crescând riscul de epuizare termică și insolație. În plus, creșterea umidității relative agravează senzația de căldură, făcând ca perioadele de vară să devină și mai greu de suportat. Efectele disconfortului termic se resimt nu doar la nivel fizic, ci și psihologic, afectând productivitatea și starea generală de bine a populației. ',
+            description: 'Încălzirea globală contribuie semnificativ la creșterea disconfortului termic resimțit de oameni. Pe măsură ce temperaturile medii globale cresc, valurile de căldură devin mai frecvente și mai intense. Aceste condiții extreme afectează capacitatea organismului uman de a-și regla temperatura internă, crescând riscul de epuizare termică și insolație. ',
+            overlayImage: 'batrani.png',
+            
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 1,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+
+        {
+            id: 'cap12.1',
+            daysAgo: 731,
+            showTimeline: false,
+            timelineImage: '', 
+            alignment: 'center',
+            hidden: false,
+            title: '', // Consider adding a title if needed
+            image: '', // Specify if there's a header image for the chapter
+            description: 'În plus, creșterea umidității relative agravează senzația de căldură, făcând ca perioadele de vară să devină și mai greu de suportat. Efectele disconfortului termic se resimt nu doar la nivel fizic, ci și psihologic, afectând productivitatea și starea generală de bine a populației. ',
             overlayImage: 'batrani.png',
             
             location: {
@@ -744,7 +780,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<iframe src="https://flo.uri.sh/visualisation/18467368/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18467368/?utm_source=embed&utm_campaign=visualisation/18467368" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            description: '<iframe src="https://flo.uri.sh/visualisation/18467368/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:350px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18467368/?utm_source=embed&utm_campaign=visualisation/18467368" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
             overlayImage: 'blank.png',
             
             location: {
@@ -781,7 +817,44 @@ var config = {
             hidden: false,
             title: 'Creșterea mortalității', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Încălzirea globală contribuie semnificativ la creșterea mortalității în exces prin intensificarea și prelungirea perioadelor de căldură extremă. Temperaturile ridicate și valurile de căldură devin din ce în ce mai frecvente și mai severe, afectând în mod disproporționat persoanele vârstnice, copiii și cei cu afecțiuni preexistente. Aceste condiții extreme suprasolicită capacitatea organismului de a-și menține o temperatură internă stabilă, ducând la probleme grave de sănătate, cum ar fi epuizarea termică și insolația. Valurile de căldură din Europa au provocat zeci de mii de decese suplimentare în ultimii ani, iar previziunile indică o agravare a acestei tendințe.',
+            description: 'Încălzirea globală contribuie semnificativ la creșterea mortalității în exces prin intensificarea și prelungirea perioadelor de căldură extremă. Temperaturile ridicate și valurile de căldură devin din ce în ce mai frecvente și mai severe, afectând în mod disproporționat persoanele vârstnice, copiii și cei cu afecțiuni preexistente.',
+            overlayImage: 'blank.png',
+            
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 1,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ],
+            
+        },
+
+        {
+            id: 'cap14.1',
+            daysAgo: 650,
+            showTimeline: false,
+            timelineImage: '', 
+            alignment: 'center',
+            hidden: false,
+            title: '', // Consider adding a title if needed
+            image: '', // Specify if there's a header image for the chapter
+            description: 'Aceste condiții extreme suprasolicită capacitatea organismului de a-și menține o temperatură internă stabilă, ducând la probleme grave de sănătate, cum ar fi epuizarea termică și insolația. Valurile de căldură din Europa au provocat zeci de mii de decese suplimentare în ultimii ani, iar previziunile indică o agravare a acestei tendințe.',
             overlayImage: 'blank.png',
             
             location: {
@@ -818,7 +891,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<iframe src="https://flo.uri.sh/visualisation/18181766/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18181766/?utm_source=embed&utm_campaign=visualisation/18181766" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            description: '<iframe src="https://flo.uri.sh/visualisation/18181766/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:350px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18181766/?utm_source=embed&utm_campaign=visualisation/18181766" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
             overlayImage: 'blank.png',
             
             location: {
@@ -856,7 +929,43 @@ var config = {
             hidden: false,
             title: 'Insula de căldură urbană', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'Insula de căldură urbană apare când zonele urbane devin mai calde decât cele rurale din cauza activităților umane și a infrastructurii. Suprafețele pavate și clădirile rețin căldura, iar emisiile de la vehicule și industrie contribuie la creșterea temperaturilor. Acest fenomen agravează disconfortul termic, problemele de sănătate legate de căldură și crește consumul de energie pentru răcire. De asemenea, poate deteriora calitatea aerului. Pentru a reduce efectele insulei de căldură, orașele pot crește suprafețele verzi, folosi materiale reflectorizante și promova transportul durabil.',
+            description: 'Insula de căldură urbană apare când zonele urbane devin mai calde decât cele rurale din cauza activităților umane și a infrastructurii. Suprafețele pavate și clădirile rețin căldura, iar emisiile de la vehicule și industrie contribuie la creșterea temperaturilor. Acest fenomen agravează disconfortul termic, problemele de sănătate legate de căldură și crește consumul de energie pentru răcire.',
+            overlayImage: 'pamant.png',
+            
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 1,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ],
+            
+        },
+        {
+            id: 'cap18.11',
+            daysAgo: 30,
+            showTimeline: false,
+            timelineImage: '', 
+            alignment: 'center',
+            hidden: false,
+            title: '', // Consider adding a title if needed
+            image: '', // Specify if there's a header image for the chapter
+            description: 'De asemenea, poate deteriora calitatea aerului. Pentru a reduce efectele insulei de căldură, orașele pot crește suprafețele verzi, folosi materiale reflectorizante și promova transportul durabil.',
             overlayImage: 'pamant.png',
             
             location: {
@@ -1078,7 +1187,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: '<iframe src="https://flo.uri.sh/visualisation/18184560/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18184560/?utm_source=embed&utm_campaign=visualisation/18184560" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            description: '<iframe src="https://flo.uri.sh/visualisation/18184560/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:350px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18184560/?utm_source=embed&utm_campaign=visualisation/18184560" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
             overlayImage: 'pamant.png',
             location: {
                 center: [12.02595, 49.90885],
