@@ -11,7 +11,7 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: '<span style="font-family:\'Source Serif Pro\'; font-weight: 300; padding: 0.1vh; border-radius: 5px; color: #ffffff; font-size: 1.5rem; display: block; margin-bottom: 1px;">VALURI DE CĂLDURĂ ÎN ROMÂNIA</span>',
-    subtitle: '<span style="font-family: \'Source Serif Pro\'; color: #ffffff; font-size: 4rem; font-weight: 600;"> CUM NE AFECTEAZĂ <span style="font-weight: 400; animation: colorFade 6s infinite;" class="outlined">ÎNCĂLZIREA GLOBALĂ</span></span>',
+    subtitle: '<span style="font-family: \'Source Serif Pro\'; color: #ffffff; font-size: 3rem; font-weight: 600;"> CUM NE AFECTEAZĂ <span style="font-weight: 400; animation: colorFade 6s infinite;" class="outlined">ÎNCĂLZIREA GLOBALĂ</span></span>',
 
     byline: '<p> <img src="./scroll.gif"> </p>',
     footer: '<br> 25 iunie 2024 <br> Sursa datelor: Copernicus, Institutul Național de Statistică, Our world in data, exhaustion.eu, Antonescu, B., Mărmureanu, L., Vasilescu, J., Marin, C., Andrei, S., Boldeanu, M., Ene, D., & Ţilea, A. (2020). A 41-year bioclimatology of thermal stress in Europe <br> Material realizat în cadrul proiectului: Fenomene Extreme în Climatul Viitor al României <br> Imaginile sunt generate folosind Dall-E 2, Design și vizualizare de date: Egas.studio',
@@ -697,7 +697,7 @@ var config = {
         },
 
         {
-            id: 'cap12.1',
+            id: 'cap12.2',
             daysAgo: 731,
             showTimeline: false,
             timelineImage: '', 
