@@ -26,7 +26,7 @@ var config = {
             title: '',
             image: '',
             description: 'Încălzirea care cuprinde întreaga planetă nu mai e de mult doar o teorie îndepărtată. Trăim într-o căldură din ce în ce mai acută, cu vârfuri extreme care apar tot mai des.',
-            overlayImage: 'blank.png',
+            overlayImage: 'fundalunu.png',
             
             location: {
                 center: [12.02595, 49.90885],
