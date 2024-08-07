@@ -14,7 +14,7 @@ var config = {
     subtitle: '<span style="font-family: \'Roboto\'; color: #000000; font-size: 2rem; font-weight: 700;"> Valurile de căldură ne schimbă viața. Cum arată dimensiunea <span style="font-weight: 400; animation: colorFade 6s infinite;" class="outlined">încălzirii</span> care cuprinde și România</span>',
 
     byline: '<p> <img src="./scroll.gif"> </p>',
-    footer: '<br> 07 august 2024 <br> Sursa datelor: Copernicus, Institutul Național de Statistică, Our world in data, exhaustion.eu, Antonescu, B., Mărmureanu, L., Vasilescu, J., Marin, C., Andrei, S., Boldeanu, M., Ene, D., & Ţilea, A. (2020). A 41-year bioclimatology of thermal stress in Europe <br> Material realizat în cadrul proiectului: Fenomene Extreme în Climatul Viitor al României cu sprijinul <a href="https://infoclima.ro">Infoclima.ro</a> <br> Imaginile sunt generate folosind Dall-E 2, Design și vizualizare de date: Egas.studio',
+    footer: '<br> 07 august 2024 <br> Sursa datelor: Copernicus, Institutul Național de Statistică, Our world in data, exhaustion.eu, Antonescu, B., Mărmureanu, L., Vasilescu, J., Marin, C., Andrei, S., Boldeanu, M., Ene, D., & Ţilea, A. (2020). A 41-year bioclimatology of thermal stress in Europe <br> Material realizat în cadrul proiectului: Fenomene Extreme în Climatul Viitor al României, cu sprijinul <a href="https://infoclima.ro">Infoclima.ro</a> <br> Imaginile sunt generate folosind Dall-E 2, Design și vizualizare de date: Egas.studio',
     chapters: [
         
         {
@@ -1396,6 +1396,43 @@ var config = {
         },
         {
             id: 'cap18.4',
+            daysAgo: 30,
+            showTimeline: false,
+            timelineImage: '', 
+            alignment: 'center',
+            hidden: true,
+            title: '', // Consider adding a title if needed
+            image: '', // Specify if there's a header image for the chapter
+            description: '',
+            overlayImage: 'harta.png',
+            
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 1,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ],
+            
+        },
+
+        {
+            id: 'cap18.4.1',
             daysAgo: 30,
             showTimeline: false,
             timelineImage: '', 
