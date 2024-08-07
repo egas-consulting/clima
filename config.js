@@ -1,6 +1,6 @@
 var config = {
     style: 'mapbox://styles/ed1990/clshd5fko001d01qw5qk66k79',
-    accessToken: 'pk.eyJ1IjoiZWQxOTkwIiwiYSI6ImNsbHdjMWNsODA0NnMzanN5amI3YjVwdzgifQ.PL1xMSDztFZISCkgeNZ2gg',
+    accessToken: 'pk.eyJ1IjoiZWQxOTkwIiwiYSI6ImNseG9xNHBwODBma3kyc3Fyd3JhYmtmeGcifQ.ME8u7SSIIraADloYWQPduw',
     showMarkers: false,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
@@ -14,7 +14,7 @@ var config = {
     subtitle: '<span style="font-family: \'Roboto\'; color: #000000; font-size: 2rem; font-weight: 700;"> Valurile de căldură ne schimbă viața. Cum arată dimensiunea <span style="font-weight: 400; animation: colorFade 6s infinite;" class="outlined">încălzirii</span> care cuprinde și România</span>',
 
     byline: '<p> <img src="./scroll.gif"> </p>',
-    footer: '<br> 25 iunie 2024 <br> Sursa datelor: Copernicus, Institutul Național de Statistică, Our world in data, exhaustion.eu, Antonescu, B., Mărmureanu, L., Vasilescu, J., Marin, C., Andrei, S., Boldeanu, M., Ene, D., & Ţilea, A. (2020). A 41-year bioclimatology of thermal stress in Europe <br> Material realizat în cadrul proiectului: Fenomene Extreme în Climatul Viitor al României <br> Imaginile sunt generate folosind Dall-E 2, Design și vizualizare de date: Egas.studio',
+    footer: '<br> 07 august 2024 <br> Sursa datelor: Copernicus, Institutul Național de Statistică, Our world in data, exhaustion.eu, Antonescu, B., Mărmureanu, L., Vasilescu, J., Marin, C., Andrei, S., Boldeanu, M., Ene, D., & Ţilea, A. (2020). A 41-year bioclimatology of thermal stress in Europe <br> Material realizat în cadrul proiectului: Fenomene Extreme în Climatul Viitor al României cu sprijinul <a href="https://infoclima.ro">Infoclima.ro</a> <br> Imaginile sunt generate folosind Dall-E 2, Design și vizualizare de date: Egas.studio',
     chapters: [
         
         {
@@ -768,6 +768,45 @@ var config = {
         },
 
         {
+            id: 'cap9.1.3',
+            daysAgo: 760,
+            showTimeline: false,
+            timelineImage: '', 
+            alignment: 'center',
+            hidden: true,
+            title: '', // Consider adding a title if needed
+            image: '', // Specify if there's a header image for the chapter
+            description: '',
+            overlayImage: 'hexmap.png',
+            
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 1,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ],
+            
+        
+        
+        },
+
+        {
             id: 'cap12',
             daysAgo: 731,
             showTimeline: false,
@@ -1097,6 +1136,43 @@ var config = {
             
         },
 
+        {
+            id: 'cap15.1',
+            daysAgo: 30,
+            showTimeline: false,
+            timelineImage: '', 
+            alignment: 'center',
+            hidden: false,
+            title: '', // Consider adding a title if needed
+            image: '', // Specify if there's a header image for the chapter
+            description: '<iframe src="https://flo.uri.sh/visualisation/18990776/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/18990776/?utm_source=embed&utm_campaign=visualisation/18990776" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            overlayImage: 'blank.png',
+            
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 1,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ],
+            
+        },
+
         
         {
             id: 'cap18',
@@ -1254,7 +1330,7 @@ var config = {
             hidden: false,
             title: '', // Consider adding a title if needed
             image: '', // Specify if there's a header image for the chapter
-            description: 'În total, 6.700 de decese premature (95% CI 5.254 - 8.162) ar putea fi atribuite UHI în timpul verii (4,3% din mortalitatea de vară și 1,8% din mortalitatea anuală) și 2.644 de decese premature (95% CI - confidence interval -  2.444-2.824) ar putea fi prevenite prin creșterea suprafeței acoperite de copaci la 30% (1,8% din mortalitatea de vară și 0,4% din mortalitatea anuală).',
+            description: 'În total, 6.700 de decese premature (95% interval de încredere 5.254 - 8.162) ar putea fi atribuite UHI în timpul verii (4,3% din mortalitatea de vară și 1,8% din mortalitatea anuală) și 2.644 de decese premature (95% interval de încredere -  2.444-2.824) ar putea fi prevenite prin creșterea suprafeței acoperite de copaci la 30% (1,8% din mortalitatea de vară și 0,4% din mortalitatea anuală).',
             overlayImage: 'fundalsase.png',
             
             location: {
